@@ -31,7 +31,7 @@ import CourseConfigure7 from "../src/assets/Features/CourseConfigure7.png";
 import TestResult8 from "../src/assets/Features/TestResult8.png";
 import StudentLogin9 from "../src/assets/Features/StudentLogin9.png";
 
-import Job1 from "../src/assets/Features/JoB1.png";
+import Job1 from "../src/assets/Features/Job1.png";
 import Job2 from "../src/assets/Features/Job2.png";
 import Job3 from "../src/assets/Features/Job3.png";
 import Job4 from "../src/assets/Features/Job4.png";
