@@ -31,7 +31,7 @@ import CourseConfigure7 from "../src/assets/Features/CourseConfigure7.png";
 import TestResult8 from "../src/assets/Features/TestResult8.png";
 import StudentLogin9 from "../src/assets/Features/StudentLogin9.png";
 
-import JOB1 from "../src/assets/Features/Job1.png";
+import Job1 from "../src/assets/Features/JOB1.png";
 import Job2 from "../src/assets/Features/Job2.png";
 import Job3 from "../src/assets/Features/Job3.png";
 import Job4 from "../src/assets/Features/Job4.png";
@@ -57,8 +57,6 @@ import VendorPortal4 from "../src/assets/Features/VendorPortal4.png";
 import VendorPortal5 from "../src/assets/Features/VendorPortal5.png";
 import VendorPortal6 from "../src/assets/Features/VendorPortal6.png";
 
-
-
 // import wavy from "../assets/wavy.png";
 import orangeBg from "../src/assets/orangebg.jpg";
 // import purplebg from "../assets/purplebg.jpg";
@@ -66,9 +64,6 @@ import orangeBg from "../src/assets/orangebg.jpg";
 export const businessData = [
   {
     id: 1,
-    // primaryImage: crm,
-    // primaryImageMobile: crmMobile,
-    // secondaryImage: crm2,
     bgColor: "fill-[#fe890c9a]",
     bgImg: orangeBg,
     title: "Actify CRM",
@@ -76,9 +71,8 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
-    // infograph: <CRMInfoGraphics/>,
     blendColor: "from-[#fe890c7a]",
     infoBoxColor: "#fe890c7a",
     FAQs: [
@@ -458,7 +452,7 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
     // infograph: <CRMInfoGraphics/>,
     blendColor: "from-[#fe890c7a]",
@@ -790,7 +784,7 @@ export const businessData = [
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Field </span>Visit: 
+            <span className="text-orange-400">Field </span>Visit:
           </p>
         ),
         img: fieldvisit7,
@@ -818,7 +812,7 @@ export const businessData = [
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-blue-700">Salary </span>and PayRoll: 
+            <span className="text-blue-700">Salary </span>and PayRoll:
           </p>
         ),
         img: payroll9,
@@ -861,7 +855,7 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
     // infograph: LMSInfographics,
     blendColor: "from-[#fe890c7a]",
@@ -974,10 +968,8 @@ export const businessData = [
       {
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5  pb-0 lg:pb-12">
-            <span className="text-orange-400">
-              Trainer Configuration 
-            </span>
-             <span> in the system:</span>
+            <span className="text-orange-400">Trainer Configuration</span>
+            <span> in the system:</span>
           </p>
         ),
         img: LMSTrainer2,
@@ -1250,9 +1242,8 @@ export const businessData = [
       {
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5  pb-5 lg:pb-12">
-            <span className="text-orange-400">
-              Setting Up Modules</span> and <span className="text-blue-800">Practise Questions:</span>
-            
+            <span className="text-orange-400">Setting Up Modules</span> and{" "}
+            <span className="text-blue-800">Practise Questions:</span>
           </p>
         ),
         img: LMSPractice6,
@@ -1403,9 +1394,7 @@ export const businessData = [
       {
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5  pb-5 lg:pb-12">
-            <span className="text-orange-400">
-              Student Login 
-            </span>
+            <span className="text-orange-400">Student Login</span>
             <span> and Enrolled courses:</span>
           </p>
         ),
@@ -1463,7 +1452,7 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
     // infograph: JobInfoGraphics,
     blendColor: "from-[#fe890c7a]",
@@ -1521,19 +1510,40 @@ export const businessData = [
                 <p>The application supports multiple profiles.</p>
                 <p>Companies can:</p>
                 <ul>
-                  <li className="px-2">• Create <span className="font-sans font-bold">Job Descriptions.</span></li>
-                  <li className="px-2">• <span className="font-sans font-bold">View</span> applicants.</li>
-                  <li className="px-2">• Set filtering <span className="font-sans font-bold">tests.</span></li>
+                  <li className="px-2">
+                    • Create{" "}
+                    <span className="font-sans font-bold">
+                      Job Descriptions.
+                    </span>
+                  </li>
+                  <li className="px-2">
+                    • <span className="font-sans font-bold">View</span>{" "}
+                    applicants.
+                  </li>
+                  <li className="px-2">
+                    • Set filtering{" "}
+                    <span className="font-sans font-bold">tests.</span>
+                  </li>
                 </ul>
                 <p>Candidates can:</p>
                 <ul>
-                  <li className="px-2">• <span className="font-sans font-bold">Apply</span> for jobs.</li>
-                  <li className="px-2">• Take tests with <span className="font-sans font-bold">instant feedback.</span></li>
+                  <li className="px-2">
+                    • <span className="font-sans font-bold">Apply</span> for
+                    jobs.
+                  </li>
+                  <li className="px-2">
+                    • Take tests with{" "}
+                    <span className="font-sans font-bold">
+                      instant feedback.
+                    </span>
+                  </li>
                 </ul>
                 <p>College Placement Heads can:</p>
                 <ul>
                   <li className="px-2">
-                    • Use for <span className="font-sans font-bold">recruitment</span> and <span className="font-sans font-bold">internships.</span>
+                    • Use for{" "}
+                    <span className="font-sans font-bold">recruitment</span> and{" "}
+                    <span className="font-sans font-bold">internships.</span>
                   </li>
                 </ul>
               </span>
@@ -1545,7 +1555,8 @@ export const businessData = [
         // title: "Masters section:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            Companies Listing their  <span className="text-green-600">Job Postings</span>
+            Companies Listing their{" "}
+            <span className="text-green-600">Job Postings</span>
           </p>
         ),
         img: Job2,
@@ -1571,27 +1582,34 @@ export const businessData = [
                 <p>Companies Listing their Job Postings</p>
                 <p>Organizations can:</p>
                 <li className="px-3">
-                  • <span className="font-sans font-bold">Create</span> Job Descriptions (JDs) to define roles and
-                  responsibilities for open positions.
+                  • <span className="font-sans font-bold">Create</span> Job
+                  Descriptions (JDs) to define roles and responsibilities for
+                  open positions.
                 </li>
                 <li className="px-3">
-                  • <span className="font-sans font-bold">Upload</span> JDs directly to the application.
+                  • <span className="font-sans font-bold">Upload</span> JDs
+                  directly to the application.
                 </li>
                 <p>All uploaded JDs will:</p>
                 <li className="px-3">• Be listed on the platform.</li>
                 <li className="px-3">
-                  • Be <span className="font-sans font-bold">Visible and Accessible</span> to candidates.
+                  • Be{" "}
+                  <span className="font-sans font-bold">
+                    Visible and Accessible
+                  </span>{" "}
+                  to candidates.
                 </li>
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Accounts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            Setting Up Tests for <span className="text-orange-400"> Preliminary Screening: </span> 
+            Setting Up Tests for{" "}
+            <span className="text-orange-400"> Preliminary Screening: </span>
           </p>
         ),
         img: Job3,
@@ -1614,33 +1632,48 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-                <p>Companies can create role-specific screening tests using MCQ questions.</p>
+                <p>
+                  Companies can create role-specific screening tests using MCQ
+                  questions.
+                </p>
                 <li className="px-3">
-                •	If a test is associated with an opening, candidates can take it upon applying.
+                  • If a test is associated with an opening, candidates can take
+                  it upon applying.
                 </li>
                 <li className="px-3">
-                •	Test results will be accessible to both the company and the candidate.
+                  • Test results will be accessible to both the company and the
+                  candidate.
                 </li>
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Overseeing Leads:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Managing Job Postings 
-            </span> and Applicant Details:
+            <span className="text-orange-400">Managing Job Postings</span> and
+            Applicant Details:
           </p>
         ),
         img: Job4,
         list1: () => (
           <>
-            <p>The "Jobs and Responses" tab provides <span className="font-sans font-bold">Details of all the Candidates</span> for a specific <span className="font-sans font-bold">Opening.</span></p>
-            <li className="px-3">•	<span className="font-sans font-bold">Resumes</span> of the applicants are also accessible within this tab.</li>
+            <p>
+              The "Jobs and Responses" tab provides{" "}
+              <span className="font-sans font-bold">
+                Details of all the Candidates
+              </span>{" "}
+              for a specific{" "}
+              <span className="font-sans font-bold">Opening.</span>
+            </p>
+            <li className="px-3">
+              • <span className="font-sans font-bold">Resumes</span> of the
+              applicants are also accessible within this tab.
+            </li>
           </>
-        )
+        ),
       },
       {
         // title: "Managing Deals:",
@@ -1653,12 +1686,12 @@ export const businessData = [
         list1: () => (
           <>
             <p>Detailed Performance Overview is provided with</p>
-            <li>•	Number of attempted questions </li>
-            <li>•	Number of unattempted questions</li>
-            <li>•	Total number of correct answers</li>
-            <li>•	Total number of incorrect answers</li>
+            <li>• Number of attempted questions </li>
+            <li>• Number of unattempted questions</li>
+            <li>• Total number of correct answers</li>
+            <li>• Total number of incorrect answers</li>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
@@ -1670,48 +1703,76 @@ export const businessData = [
         img: Job7,
         list1: () => (
           <>
-            <p>Candidates register and complete their profiles, including resume uploads.</p>
-            <li>•	All entered information is subsequently <span className="font-sans font-bold">stored within the system.</span></li>
+            <p>
+              Candidates register and complete their profiles, including resume
+              uploads.
+            </p>
+            <li>
+              • All entered information is subsequently{" "}
+              <span className="font-sans font-bold">
+                stored within the system.
+              </span>
+            </li>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Job Openings  </span>and Application Process 
+            <span className="text-orange-400">Job Openings </span>and
+            Application Process
           </p>
         ),
         img: Job8,
         list1: () => (
           <>
-            <p>Candidates can view available <span className="font-sans font-bold">Job Listings</span> in the Vacancies tab, explore detailed <span className="font-sans font-bold">Job Descriptions,</span> and <span className="font-sans font-bold">Apply</span> directly.</p>
+            <p>
+              Candidates can view available{" "}
+              <span className="font-sans font-bold">Job Listings</span> in the
+              Vacancies tab, explore detailed{" "}
+              <span className="font-sans font-bold">Job Descriptions,</span> and{" "}
+              <span className="font-sans font-bold">Apply</span> directly.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Applied Jobs </span>and Test Management 
+            <span className="text-orange-400">Applied Jobs </span>and Test
+            Management
           </p>
         ),
         img: Job9,
         list1: () => (
           <>
-            <p>The "<span className="font-sans font-bold">My Jobs</span>" section displays a list of <span className="font-sans font-bold">All Applied Positions</span> and provides an interface for candidates to take tests. Candidates can <span className="font-sans font-bold">Access Tests</span> via a link, <span className="font-sans font-bold">view</span> their <span className="font-sans font-bold">scores,</span> and share them with companies.</p>
+            <p>
+              The "<span className="font-sans font-bold">My Jobs</span>" section
+              displays a list of{" "}
+              <span className="font-sans font-bold">All Applied Positions</span>{" "}
+              and provides an interface for candidates to take tests. Candidates
+              can <span className="font-sans font-bold">Access Tests</span> via
+              a link, <span className="font-sans font-bold">view</span> their{" "}
+              <span className="font-sans font-bold">scores,</span> and share
+              them with companies.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            The company can then <span className="font-sans font-bold text-orange-400">Review the Results</span> and proceed with the recruitment process.
+            The company can then{" "}
+            <span className="font-sans font-bold text-orange-400">
+              Review the Results
+            </span>{" "}
+            and proceed with the recruitment process.
           </p>
         ),
         img: Job10,
-        
       },
     ],
   },
@@ -1727,7 +1788,7 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
     // infograph: JobInfoGraphics,
     blendColor: "from-[#fe890c7a]",
@@ -1758,7 +1819,7 @@ export const businessData = [
       {
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans">
-            <span className="text-orange-400">Launch your  </span>
+            <span className="text-orange-400">Launch your </span>
             Store:
           </p>
         ),
@@ -1782,7 +1843,12 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-                <p>Are you a brand owner looking to establish your online presence? With the Actify Store app, getting started is quick and hassle-free. Simply register your brand, log in, and begin building your website in minutes.</p>
+                <p>
+                  Are you a brand owner looking to establish your online
+                  presence? With the Actify Store app, getting started is quick
+                  and hassle-free. Simply register your brand, log in, and begin
+                  building your website in minutes.
+                </p>
               </span>
             </li>
           </>
@@ -1792,7 +1858,8 @@ export const businessData = [
         // title: "Masters section:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            Companies Listing their  <span className="text-green-600">Setup the payment modes:</span>
+            Companies Listing their{" "}
+            <span className="text-green-600">Setup the payment modes:</span>
           </p>
         ),
         img: StoreFeatures2,
@@ -1815,17 +1882,20 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-              Set up your payment options with ease. Choose between two modes: QR Scanner or UPI ID. Take advantage of our inbuilt QR generator for seamless transactions.
+                Set up your payment options with ease. Choose between two modes:
+                QR Scanner or UPI ID. Take advantage of our inbuilt QR generator
+                for seamless transactions.
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Accounts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            Setting Up Tests for <span className="text-orange-400"> Build your Brand Profile: </span> 
+            Setting Up Tests for{" "}
+            <span className="text-orange-400"> Build your Brand Profile: </span>
           </p>
         ),
         img: Store3,
@@ -1848,38 +1918,65 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-                <p>Create a personalized profile for your website to showcase your brand's unique identity and offerings.</p>
+                <p>
+                  Create a personalized profile for your website to showcase
+                  your brand's unique identity and offerings.
+                </p>
                 <li className="px-3">
-                •	<span className="font-sans font-bold">Set up home screen images:</span> Upload visuals that represent your brand's identity and attract attention.
+                  •{" "}
+                  <span className="font-sans font-bold">
+                    Set up home screen images:
+                  </span>{" "}
+                  Upload visuals that represent your brand's identity and
+                  attract attention.
                 </li>
                 <li className="px-3">
-                •	<span className="font-sans font-bold">Create footer content:</span> Add essential details like contact information, social media links, and business hours.
+                  •{" "}
+                  <span className="font-sans font-bold">
+                    Create footer content:
+                  </span>{" "}
+                  Add essential details like contact information, social media
+                  links, and business hours.
                 </li>
                 <li className="px-3">
-                •	<span className="font-sans font-bold">Add gallery images:</span> Showcase your products or services with carefully chosen images to establish the right context for your brand.
+                  •{" "}
+                  <span className="font-sans font-bold">
+                    Add gallery images:
+                  </span>{" "}
+                  Showcase your products or services with carefully chosen
+                  images to establish the right context for your brand.
                 </li>
                 <li className="px-3">
-                •	<span className="font-sans font-bold">Design a feedback form:</span> Gather customer insights with a simple form to improve your offerings and steer your business in the right direction.
+                  •{" "}
+                  <span className="font-sans font-bold">
+                    Design a feedback form:
+                  </span>{" "}
+                  Gather customer insights with a simple form to improve your
+                  offerings and steer your business in the right direction.
                 </li>
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Overseeing Leads:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Create and Organize Your  
-            </span> Product Catalogue:
+            <span className="text-orange-400">Create and Organize Your</span>{" "}
+            Product Catalogue:
           </p>
         ),
         img: Store4,
         list1: () => (
           <>
-            <p>Upload your product catalog with images, organize items into specific categories, and list the products. Include detailed descriptions and pricing information for each item.</p>
+            <p>
+              Upload your product catalog with images, organize items into
+              specific categories, and list the products. Include detailed
+              descriptions and pricing information for each item.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Managing Deals:",
@@ -1891,9 +1988,13 @@ export const businessData = [
         img: Store5,
         list1: () => (
           <>
-            <p>Once your StoreApp is live, your customers will be able to seamlessly explore your online store. They can browse through your well-organized product catalogs.</p>
+            <p>
+              Once your StoreApp is live, your customers will be able to
+              seamlessly explore your online store. They can browse through your
+              well-organized product catalogs.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
@@ -1905,24 +2006,38 @@ export const businessData = [
         img: Store6,
         list1: () => (
           <>
-            <p>Customers will also have the ability to search for specific products using keywords and filter the results based on criteria such as price range, making it easier for them to find exactly what they’re looking for.</p>
+            <p>
+              Customers will also have the ability to search for specific
+              products using keywords and filter the results based on criteria
+              such as price range, making it easier for them to find exactly
+              what they’re looking for.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Streamlined Shopping and Order Management:</span>
+            <span className="text-orange-400">
+              Streamlined Shopping and Order Management:
+            </span>
           </p>
         ),
         img: Store7,
         list1: () => (
           <>
-            <p>Customers can easily add products to their cart and proceed with placing an order. With the integrated payment gateway, they can securely complete their purchase within the app. Additionally, users can access a detailed history of their transactions, including payment records for completed orders and a log of any cancelled orders.</p>
+            <p>
+              Customers can easily add products to their cart and proceed with
+              placing an order. With the integrated payment gateway, they can
+              securely complete their purchase within the app. Additionally,
+              users can access a detailed history of their transactions,
+              including payment records for completed orders and a log of any
+              cancelled orders.
+            </p>
           </>
-        )
-      }
+        ),
+      },
     ],
   },
   {
@@ -1937,7 +2052,7 @@ export const businessData = [
       "Manage deals, track leads, and nurture customer relationships all in one place. Enhance customer satisfaction and drive business growth efficiently.",
     about:
       " CRM software helps you manage deals, track leads, and nurture customer relationships all in one place. Streamline your sales process with powerful tools and insightful analytics. Enhance customer satisfaction and drive business growth efficiently",
-    infoBoxColor: "bg-green-300",
+    // infoBoxColor: "bg-green-300",
     bannerVid: BannerVidCrm,
     // infograph: JobInfoGraphics,
     blendColor: "from-[#fe890c7a]",
@@ -1993,8 +2108,20 @@ export const businessData = [
 
               <span className="font-sans">
                 <ul>
-                  <li>• <span className="font-sans font-bold">Informative dashboards with purchase request details at your fingertips.</span></li>
-                  <li >• <span className="font-sans font-bold">Dashboards for easy navigation and management of vendors and items.</span></li>
+                  <li>
+                    •{" "}
+                    <span className="font-sans font-bold">
+                      Informative dashboards with purchase request details at
+                      your fingertips.
+                    </span>
+                  </li>
+                  <li>
+                    •{" "}
+                    <span className="font-sans font-bold">
+                      Dashboards for easy navigation and management of vendors
+                      and items.
+                    </span>
+                  </li>
                 </ul>
               </span>
             </li>
@@ -2028,17 +2155,23 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-                <p>Items from the Quotation List received via the ERP system can be assigned to Vendors, with corresponding reports generated.</p>
+                <p>
+                  Items from the Quotation List received via the ERP system can
+                  be assigned to Vendors, with corresponding reports generated.
+                </p>
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Accounts:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400"> Managing ERP Quotation List: </span> 
+            <span className="text-orange-400">
+              {" "}
+              Managing ERP Quotation List:{" "}
+            </span>
           </p>
         ),
         img: VendorPortal3,
@@ -2061,26 +2194,31 @@ export const businessData = [
             </svg> */}
 
               <span className="font-sans">
-                <p>Items from the Quotation List received via the ERP system can be assigned to Vendors, with corresponding reports generated.</p>
+                <p>
+                  Items from the Quotation List received via the ERP system can
+                  be assigned to Vendors, with corresponding reports generated.
+                </p>
               </span>
             </li>
           </>
-        )
+        ),
       },
       {
         // title: "Overseeing Leads:",
         title: () => (
           <p className="text-3xl lg:text-5xl font-sans p-5 pb-12">
-            <span className="text-orange-400">Intuitive Reports
-            </span>
+            <span className="text-orange-400">Intuitive Reports</span>
           </p>
         ),
         img: VendorPortal4,
         list1: () => (
           <>
-            <p>Download reports with item-specific details, including RFQ information, vendor quotes, costs, and RFQ dates.</p>
+            <p>
+              Download reports with item-specific details, including RFQ
+              information, vendor quotes, costs, and RFQ dates.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Managing Deals:",
@@ -2092,9 +2230,14 @@ export const businessData = [
         img: VendorPortal5,
         list1: () => (
           <>
-            <p>Vendors can log in to the application to access all RFQs assigned to them. They can review the details of each item listed in the RFQs and prepare and submit their quotations directly through the portal.</p>
+            <p>
+              Vendors can log in to the application to access all RFQs assigned
+              to them. They can review the details of each item listed in the
+              RFQs and prepare and submit their quotations directly through the
+              portal.
+            </p>
           </>
-        )
+        ),
       },
       {
         // title: "Maintaining Contacts:",
@@ -2106,10 +2249,15 @@ export const businessData = [
         img: VendorPortal6,
         list1: () => (
           <>
-            <p>The report displays all quotations submitted by vendors, providing comprehensive details such as the RFQ date, RFQ validity period, expiry date, items included, and the quoted quantities for each item.</p>
+            <p>
+              The report displays all quotations submitted by vendors, providing
+              comprehensive details such as the RFQ date, RFQ validity period,
+              expiry date, items included, and the quoted quantities for each
+              item.
+            </p>
           </>
-        )
-      }
+        ),
+      },
     ],
   },
 ];
