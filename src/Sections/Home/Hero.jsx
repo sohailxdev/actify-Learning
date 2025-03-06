@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar";
-import HeroBg from "../../assets/HeroBg.jpg";
+import HeroBg from "../../assets/HeroBg.png";
 import { Link } from "react-router-dom";
 
 import Illustration1 from "../../assets/illustration2.png";
